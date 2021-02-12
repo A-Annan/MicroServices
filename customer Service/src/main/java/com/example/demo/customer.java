@@ -24,4 +24,5 @@ public class customer {
 
 
 @RepositoryRestResource
-interface customerRpository extends JpaRepository<customer,Long>{}
+interface  customerRpository extends JpaRepository<customer,Long>{
+}
